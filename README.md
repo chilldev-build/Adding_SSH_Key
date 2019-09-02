@@ -39,6 +39,10 @@ So far I have added the key by starting the agent in a working directory and add
 
 $ ssh-add ~/.ssh/id_rsa
 
+--Update
+
+I ran these two commands in my Digital Crafts directory and then attempted to push a repo and it did not ask for the passphrase. Then I restarted my computer to see if the agent saves the setting and it appears to work.
+
 # Adding SSH Key to Github
 
 https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account
