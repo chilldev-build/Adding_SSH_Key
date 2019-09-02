@@ -41,7 +41,7 @@ $ ssh-add ~/.ssh/id_rsa
 
 --Update
 
-I ran these two commands in my Digital Crafts directory and then attempted to push a repo and it did not ask for the passphrase. Then I restarted my computer to see if the agent saves the setting and it appears to work.
+I ran these two commands in my Digital Crafts directory and then attempted to push a repo and it did not ask for the passphrase. Then I restarted my computer to see if the agent saves the setting and it appears to reset in this case.
 
 # Adding SSH Key to Github
 
