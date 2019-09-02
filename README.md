@@ -22,7 +22,7 @@ Next it will prompt you to add a passphrase.
 
 ---
 
-### Once the key has been added you will need to manage the key in the agent to add to each directory.
+## Once the key has been added you will need to manage the key in the agent to add to each directory.
 
 Start the SSH agent:
 
@@ -39,11 +39,13 @@ So far I have added the key by starting the agent in a working directory and add
 
 $ ssh-add ~/.ssh/id_rsa
 
---Update
+#### Update
 
 I ran these two commands in my Digital Crafts directory and then attempted to push a repo and it did not ask for the passphrase. Then I restarted my computer to see if the agent saves the setting and it appears to reset in this case.
 
-# Adding SSH Key to Github
+After adding the key to the agent again at the root level I tested to see if restarting the terminal has any affect on the SSH Agent. This is that test.
+
+## Adding SSH Key to Github
 
 https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account
 
