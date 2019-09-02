@@ -1,5 +1,7 @@
 # SSH Creation and Using the SSH Agent from the command line
 
+Feel free to fork this and add any details you learn from your system and testing this.
+
 ---
 
 ## Here are some notes for quick reference to create an SSH key from the command line.
@@ -44,6 +46,10 @@ $ ssh-add ~/.ssh/id_rsa
 I ran these two commands in my Digital Crafts directory and then attempted to push a repo and it did not ask for the passphrase. Then I restarted my computer to see if the agent saves the setting and it appears to reset in this case.
 
 After adding the key to the agent again at the root level I tested to see if restarting the terminal has any affect on the SSH Agent. This is that test.
+
+It appears that restarting the terminal reset the SSH Agent as it promted me for my passphrase upon restarting the terminal and attempting to push to github.
+
+I am not sure in all systems will behave this way or if there are some global settings where the key passphrase can be saved on a more permanent basis.
 
 ## Adding SSH Key to Github
 
